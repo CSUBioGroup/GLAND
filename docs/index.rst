@@ -13,7 +13,7 @@ Welcome to the official documentation for GLAND. This tutorial provides a step-b
    :maxdepth: 2
    :caption: Tutorial 1: 10X Visium
 
-   tutorial_1/visium
+   tutorial_1/GLAND-Tutorial1.ipynb
 
 .. toctree::
    :maxdepth: 1
