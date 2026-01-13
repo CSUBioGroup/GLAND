@@ -3,6 +3,20 @@
 ## Overview
 [Placeholder: Add a brief description of GLAND here, e.g., "GLAND is a graph-based self-supervised contrastive learning framework designed for processing spatial transcriptomics data and identifying spatial domains with high precision."]
 
+## Installation
+
+We recommend using a Conda environment to manage dependencies. You can install the core requirements directly from the repository:
+
+```bash
+# Clone the repository
+git clone [https://github.com/CSUBioGroup/GLAND.git](https://github.com/CSUBioGroup/GLAND.git)
+cd GLAND
+
+# Install dependencies
+pip install -r requirements.txt
+
+For detailed instructions, including R environment configuration and GPU setup, please visit our [Installation Guide]([https://github.com/jianhuig/SpaGCN](https://gland.readthedocs.io/en/latest/installation.html)).
+
 ## Compared Tools
 
 The following state-of-the-art methods were used for performance benchmarking:
@@ -43,6 +57,7 @@ If you have any questions, please do not hesitate to contact us at:
 ## Cite
 
 [Placeholder: Add your paper citation here]
+
 
 
 
