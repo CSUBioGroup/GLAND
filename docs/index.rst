@@ -11,15 +11,15 @@ Welcome to the official documentation for GLAND. This tutorial provides a step-b
 
 .. toctree::
    :maxdepth: 2
-   :caption: Tutorial 1: 10X Visium
+   :caption: Tutorial 1: DLPFC
 
    tutorial_1/GLAND-Tutorial1.ipynb
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Tutorial 2: scRNA and ST data integration (deconvolution)
+   :maxdepth: 3
+   :caption: Tutorial 2: Hepatic Lobular
 
-   tutorial_2/integration
+   tutorial_2/GLAND-Tutorial2.ipynb
 
 About GLAND
 -----------
