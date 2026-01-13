@@ -1,3 +1,5 @@
 sphinx
 myst-parser  # 让你能用 Markdown 写文档
 sphinx-rtd-theme  # 经典的 Read the Docs 蓝色主题
+nbsphinx
+ipykernel
