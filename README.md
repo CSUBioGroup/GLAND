@@ -1,7 +1,7 @@
 # GLAND: A Global and Local Attention‐Based Framework for Detecting Small and Non‐Continuous Spatial Domains
 
 ## Overview
-Recent advances in spatial transcriptomic technology have provided unprecedented insights into tissue architecture by enabling high-throughput gene expression profiling with the corresponding spatial context. While identifying spatial domains is a prerequisite for understanding tissue heterogeneity and functional organization, current computational methods often fail to resolve non-continuous or small-scale domains that, despite their biological significance, exhibit complex spatial distribution. To address these challenges, we present GLAND, a deep learning framework that integrates global and local attention to resolve multi-scale spatial dependencies. GLAND employs a spatial outlier detection strategy to refine the spatial graph, coupled with a dual-branch encoder that simultaneously captures long-range biological similarity and localized spatial continuity. Comprehensive benchmarking across 39 slices and 7 spatial transcriptomic platforms demonstrates that GLAND exhibits superior performance in identifying not only traditional continuous spatial domains but also non-continuous and small domains. Within the complex tumor microenvironment, GLAND accurately resolves fragmented tumor regions and small lymphoid aggregates. Its learned spot embeddings bridge spatial gaps by preserving the transcriptomic identity of tumor domains across distal locations, facilitating a unified characterization of heterogeneous tissue landscapes.
+GLAND is a deep learning framework for spatial domain identification that resolves multi-scale spatial dependencies by integrating global and local attention mechanisms. Using a novel spatial outlier detection strategy (spLOF) and a dual-branch encoder to simultaneously capture long-range biological similarities and localized spatial continuity, GLAND consistently improves clustering accuracy across 39 tissue slices from seven diverse spatial transcriptomic platforms. It also enables the high-resolution identification of non-continuous and micro-scale domains, effectively resolving fragmented tumor regions and small lymphoid aggregates within the complex tumor microenvironment.
 
 ## Installation
 
@@ -47,7 +47,7 @@ For the step-by-step tutorial on data processing and spatial domain identificati
 📖 [https://gland.readthedocs.io/en/latest/index.html#](https://gland.readthedocs.io/en/latest/index.html#)
 
 
-## Contact / 联系
+## Contact
 
 If you have any questions, please do not hesitate to contact us at:
 
@@ -55,6 +55,7 @@ If you have any questions, please do not hesitate to contact us at:
 
 
 ## Cite
+
 
 
 
