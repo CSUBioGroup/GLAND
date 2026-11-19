@@ -26,7 +26,7 @@ The following state-of-the-art methods were used for performance benchmarking:
 * [CCST](https://github.com/xiaoyeye/CCST)
 * [conST](https://github.com/ys-zong/conST)
 * [DeepST](https://github.com/STOmics/DeepST)
-* [ConST](https://github.com/rli012/ConST)
+* [STCC](https://doi.org/10.1101/gr.280031.124)
 * [STAGATE](https://github.com/QIAO-SU/STAGATE)
 * [SpaceFlow](https://github.com/hongleir/SpaceFlow)
 * [GraphST](https://github.com/JinmiaoChenLab/GraphST)
